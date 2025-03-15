@@ -1,0 +1,29 @@
+.header-staff {
+  min-height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(./Image/news_header.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.unordered-list-mt {
+  font-size: 18px;
+  line-height: 33px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.text-mt {
+  font-size: 20px !important;
+}
+
+.image-mt {
+  height: 300px;
+}
+
+.image-mt:hover {
+  height: 400px;
+}

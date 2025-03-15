@@ -1,0 +1,9 @@
+.header-staff {
+  min-height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(/images/img10.jpg);
+  background-position: center top;
+  background-size: cover;
+  position: relative;
+}

@@ -1,0 +1,32 @@
+.header-staff {
+  min-height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(/Image/meetstaff.jpg);
+  background-position: center top;
+  background-size: cover;
+  position: relative;
+}
+
+.para p {
+  font-size: 17px !important;
+}
+.para {
+  font-size: 17px !important;
+  margin-bottom: 20px;
+}
+.meet-staff {
+  height: 70vh;
+  width: 100%;
+}
+.staff-info {
+  padding: 2rem 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  width: 400px;
+  position: relative;
+}

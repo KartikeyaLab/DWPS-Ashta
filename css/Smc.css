@@ -1,0 +1,32 @@
+.header-staff {
+  min-height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(./Image/header-smc.jpg);
+  background-position: center top;
+  background-size: cover;
+  position: relative;
+}
+.iframe-smc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.iframe-smc-doc {
+  width: 80%;
+  border-radius: 10px;
+  height: 800px;
+}
+
+@media (max-width: 600px) {
+  .iframe-smc-doc {
+    height: 500px;
+  }
+}
+
+@media (max-width: 300px) {
+  .iframe-smc-doc {
+    height: 350px;
+  }
+}

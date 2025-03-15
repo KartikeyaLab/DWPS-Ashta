@@ -1,0 +1,101 @@
+.header-principal {
+  min-height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url(../Image/mmesss.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.image-pm {
+  width: 500px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  transition: 0.5s;
+  object-fit: cover;
+  overflow: hidden;
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.21);
+}
+.image-pm:hover {
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.555);
+  border-radius: 10px;
+}
+.image-pm {
+  width: 488.962px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  transition: 0.5s;
+  object-fit: cover;
+}
+.image-pm img {
+  width: 488.962px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  transition: 0.5s;
+  object-fit: cover;
+}
+.image-pm:hover img {
+  border-radius: 10px;
+  transform: scale(1.1);
+}
+
+#section-pm {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 491px) {
+  .image-pm img {
+    width: 388.962px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  .image-pm {
+    width: 388.962px;
+    height: 400px;
+    border-radius: 10px;
+  }
+  .image-pm:hover img {
+    height: 410px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 391px) {
+  .image-pm img {
+    width: 288.962px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .image-pm {
+    width: 288.962px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .image-pm:hover img {
+    height: 310px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 291px) {
+  .image-pm img {
+    width: 288.962px;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .image-pm {
+    width: 288.962px;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .image-pm:hover img {
+    border-radius: 10px;
+    height: 260px;
+  }
+}

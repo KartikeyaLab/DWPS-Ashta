@@ -1,0 +1,220 @@
+.Main-mp {
+  margin-top: 150px;
+}
+.meet-bom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meet-bom-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.card {
+  width: 410px;
+  height: 360px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 50px;
+  border-radius: 9px;
+  box-shadow: 0 35px 88px rgba(0, 0, 0, 0.15);
+  transition: 0.5s !important;
+  background-position: center;
+  background-size: cover;
+}
+.card:hover {
+  transform: scale(1.08) !important;
+}
+
+.card .content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+}
+.card .content .details {
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+  transform: translateY(150px);
+}
+@media (max-width: 300px) {
+  .card .content .details {
+    padding: 10px;
+  }
+}
+.card .content .details {
+  transform: translateY(0px);
+}
+.card .content .details h2 {
+  letter-spacing: 1px;
+  font-size: 3em;
+  font-weight: 200;
+  color: rgb(255, 255, 255);
+  line-height: 1.2em;
+  width: 100%;
+}
+
+.card .content .details h2 a:hover {
+  text-decoration: underline;
+}
+
+.card .content .details h2 span {
+  color: rgb(255, 255, 255);
+  background-color: #1c4e4e;
+  font-family: "quicksand";
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  padding: 0.5em 1.25em;
+}
+
+.card .content {
+  transition: all 0.5s;
+}
+
+.card-image-1 {
+  overflow: hidden;
+  transition: all 0.5s;
+  background-image: linear-gradient(to bottom, #00000000, #00000068, #0000009c),
+    url(../board-of-management/Kurshid.jpg);
+  background-size: cover;
+}
+
+.card-image-2 {
+  overflow: hidden;
+  transition: all 0.5s;
+  background-image: linear-gradient(to bottom, #00000000, #00000068, #0000009c),
+    url(../board-of-management/Mrs.LouiseKhurshid.jpeg);
+  background-size: cover;
+}
+.card-image-3 {
+  overflow: hidden;
+  transition: all 0.5s;
+  background-image: linear-gradient(to bottom, #00000000, #00000068, #0000009c),
+    url(../board-of-management/Mr.RajivSoniC.A..jpeg);
+  background-size: cover;
+}
+
+.card-image-4 {
+  overflow: hidden;
+  transition: all 0.5s;
+  background-image: linear-gradient(to bottom, #00000000, #00000068, #0000009c),
+    url(../board-of-management/Dr.SyedaSayidain.jpeg);
+  background-size: cover;
+}
+
+.card-image-5 {
+  overflow: hidden;
+  transition: all 0.5s;
+  background-image: linear-gradient(to bottom, #00000000, #00000068, #0000009c),
+    url(../board-of-management/Dr.FareedChughtai.jpeg);
+  background-size: cover;
+}
+
+.card-image-6 {
+  overflow: hidden;
+  transition: all 0.5s;
+  background-image: linear-gradient(to bottom, #00000000, #00000068, #0000009c),
+    url(../board-of-management/Mr.VikramadityaSingh.jpeg);
+  background-size: cover;
+}
+
+.card-image-7 {
+  overflow: hidden;
+  transition: all 0.5s;
+  background-image: linear-gradient(to bottom, #00000000, #00000068, #0000009c),
+    url(../board-of-management/SyedParvezAli.jpeg);
+  background-size: cover;
+}
+
+.card-image-8 {
+  overflow: hidden;
+  transition: all 0.5s;
+  background-image: linear-gradient(to bottom, #00000000, #00000068, #0000009c),
+    url(../board-of-management/Mr.BahadhurSinghSendhav.jpeg);
+  background-size: cover;
+}
+
+.card-image-9 {
+  overflow: hidden;
+  transition: all 0.5s;
+  background-image: linear-gradient(to bottom, #00000000, #00000068, #0000009c),
+    url(../board-of-management/Mr.GyanSinghThakur.jpeg);
+  background-size: cover;
+}
+
+.card-image-10 {
+  overflow: hidden;
+  transition: all 0.5s;
+  background-image: linear-gradient(to bottom, #00000000, #00000068, #0000009c),
+    url(../board-of-management/SyedJavedAli.jpeg);
+  background-size: cover;
+}
+
+.card-image-11 {
+  overflow: hidden;
+  transition: all 0.5s;
+  background-image: linear-gradient(to bottom, #00000000, #00000068, #0000009c),
+    url(../board-of-management/Mrs.PayalAli.jpeg);
+  background-size: cover;
+}
+.card .content:hover {
+  transform: translateY(-19px);
+}
+.card:hover {
+  transform: scale(1.05);
+}
+@media (max-width: 1300px) {
+  .meet-bom {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+  .card {
+    width: 310px;
+  }
+}
+
+@media (max-width: 350px) {
+  .card {
+    width: 210px;
+  }
+  .card .content .details h2 span {
+    color: rgb(255, 255, 255);
+    background-color: #1c4e4e;
+    font-family: "quicksand";
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    padding: 0.5em 1.25em;
+    line-height: 45px;
+  }
+  .card .content .details h2 {
+    letter-spacing: 1px;
+    font-size: 2em;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+    line-height: 1.2em;
+    width: 100%;
+  }
+  .meet-bom {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+  }
+}
